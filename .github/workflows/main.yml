@@ -134,6 +134,7 @@ jobs:
   cli_check:
     name: CLI Check (E2E)
     runs-on: ubuntu-latest
+    container: gradle:8.14.3-jdk21-alpine
     needs: gradle_build
     defaults:
       run:
