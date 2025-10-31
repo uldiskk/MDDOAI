@@ -6,8 +6,8 @@ on:
   pull_request:
 
 env:
-  IMAGE_NAME: ${{ github.repository }}/mddoai
-  IMAGE_TAG: ${{ github.repository }}/mddoai:1.0
+  IMAGE_NAME: uldiskk/mddoai
+  IMAGE_TAG: uldiskk/mddoai:1.0
 
 jobs:
   gradle_build:
